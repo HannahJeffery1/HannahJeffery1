@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @HannahJeffery1
 - 👀 I’m interested in plant breeding.
 - 🌱 I’m currently learning at MSU.
-- 💞️ I’m looking to collaborate on bioinformatics project.
+- 💞️ I’m looking to collaborate on any bioinformatics project.
 - 📫 How to reach me: jeffer90@msu.edu
 
 <!---
