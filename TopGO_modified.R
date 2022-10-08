@@ -3,6 +3,7 @@
 #TopGO analysis
 #######################################
 #######################################
+#Credit: https://bioconductor.org/packages/devel/bioc/vignettes/topGO/inst/doc/topGO.pdf
 
 rm(list = ls())
 #Set parameters
