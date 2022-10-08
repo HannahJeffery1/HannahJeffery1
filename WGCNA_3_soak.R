@@ -1,3 +1,5 @@
+#Credit: https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/Tutorials/
+
 #=====================================================================================
 #
 #  Code chunk 1
