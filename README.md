@@ -1,4 +1,4 @@
-- Repository purpose: Providing coding resources used for RNA-sequencing projects related to DESeq2, edgeR, WGCNA, and topGO
+- Repository purpose: Providing personalized, annotated coding resources used for RNA-sequencing projects related to DESeq2, edgeR, WGCNA, and topGO
   - Username: @HannahJeffery1
   - Work: Graduate Research Assistant, Sugarbeet and Dry Bean Research Unit, Michigan State University
   - Contact: jeffery96hr@gmail.com or jeffer90@msu.edu
