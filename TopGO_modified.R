@@ -56,21 +56,13 @@ head(geneID2GO)
 ###########################################
 
 #Edit file (change Phvul. to PHAVU_ and add a "g" to the end of the name)
-#int.genes<-read.csv(file = "TurquoiseB_pvalues.csv")
-
-#convert<-read.csv(file = "beangeneInfo_SoakT_Y.csv", header = T)
-#convert<-convert[-c(1)]
-#convert<-convert[-c(3:55)]
-#convert<-read.csv(file = "beangeneInfo_SoakT_Y.csv", header = T)
-#convert<-convert[-c(1)]
-#convert<-convert[-c(3:69)]
-
-#int.genes<-merge(convert, int.genes)
-#int.genes<-int.genes[-c(1)]
-#write.csv(int.genes, file = "int.genes.csv")
+#Create a CSV file with the names of the genes in your 'turquoise' WGCNA module and their associated p-values (for module membership) from the 'beangeneInfo' file
+#Convert the names of the genes to match the names used in Ensembl
+int.genes<-read.csv(file = "TurquoiseB_pvalues.csv") 
+write.csv(int.genes, file = "int.genes.csv")
 
 ###Finished files
-int.genes<-read.csv(file = "LightgreenB_pvalues.csv")
+int.genes<-read.csv(file = "TurquoiseB_pvalues.csv")
 #int.genes<-read.csv(file = "Individuals_DESeq_alltimes.csv")
 
 #Remove duplicate genes (remnants of the GO file)
