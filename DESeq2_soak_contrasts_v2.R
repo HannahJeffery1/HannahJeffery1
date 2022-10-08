@@ -1,3 +1,5 @@
+#Credit: https://lashlock.github.io/compbio/R_presentation.html
+
 rm(list=ls()) 
 # Remove stuff from the R environment
 # Set working directory to HTSeq_Outputs_alignments
