@@ -36,10 +36,6 @@ GTOGO <- biomaRt::getBM(attributes = c( "ensembl_gene_id",
 
 #Examine result
 head(GTOGO)
-##write.csv(GTOGO$ensembl_gene_id, file = "all_genes_orig")
-#Upload manually edited GO file
-#GOnames<-read.csv(file = "all_genes_orig")
-#GTOGO$ensembl_gene_id<-GOnames
 
 #Remove blank entries
 GTOGO <- GTOGO[GTOGO$go_id != '',]
